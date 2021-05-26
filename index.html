@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeri Galaksi</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2>Galeri Galaksi</h2>
+          <p>Semua tentang Galaksi</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="judul">Gambar 1</h4>
+          <p class="ket">Nebula</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="judul">Gambar 2</h4>
+          <p class="ket">Bumi</p>
+        </div>
+      </header>
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" name="" id="" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Galeri Galaksi</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#tentang">About</a></li>
+          <li><a href="#gallery">Galeri</a></li>
+        </ul>
+      </nav>
+      <section class="services" id="services">
+        <div class="service">
+          <div class="icon">🔭</div>
+          <h3>Observatorium</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident totam magni ab suscipit autem.</p>
+        </div>
+        <div class="service">
+          <div class="icon">🎓️</div>
+          <h3>Pembelajaran</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident totam magni ab suscipit autem.</p>
+        </div>
+        <div class="service">
+          <div class="icon">🎙️</div>
+          <h3>Podcast</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident totam magni ab suscipit autem.</p>
+        </div>
+        <div class="service">
+          <div class="icon">🎁</div>
+          <h3>Merch</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident totam magni ab suscipit autem.</p>
+        </div>
+      </section>
+      <section class="tentang" id="tentang">
+        <h2>About Us</h2>
+        <div class="profil"><img src="img/profil.jpg" alt="" /></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quam eius odio quidem totam? Ipsam voluptatibus veniam tenetur incidunt deserunt nostrum expedita, dignissimos, delectus autem illo atque nobis beatae modi cumque
+          aspernatur provident dicta mollitia quas dolor explicabo molestias. Voluptates modi libero nesciunt voluptatum unde, minus, id quam magni vel dolorem laboriosam voluptas nostrum, laborum sequi? Est ratione quasi cumque itaque
+          dolorum cum accusantium numquam veritatis, repudiandae rerum iste autem laborum dolores animi odio tempora possimus modi nihil, quis ducimus?
+        </p>
+      </section>
+      <section class="gallery" id="gallery">
+        <h2>Gallery</h2>
+        <img src="https://source.unsplash.com/random/200x200" alt="" />
+        <img src="https://source.unsplash.com/random/201x201" alt="" />
+        <img src="https://source.unsplash.com/random/202x202" alt="" />
+        <img src="https://source.unsplash.com/random/203x203" alt="" />
+        <img src="https://source.unsplash.com/random/204x204" alt="" />
+        <img src="https://source.unsplash.com/random/205x205" alt="" />
+        <img src="https://source.unsplash.com/random/206x206" alt="" />
+        <img src="https://source.unsplash.com/random/207x207" alt="" />
+        <img src="https://source.unsplash.com/random/208x208" alt="" />
+        <img src="https://source.unsplash.com/random/209x209" alt="" />
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector('.menu-toggle input');
+      const nav = document.querySelector('nav ul');
+
+      menuToggle.addEventListener('click', function () {
+        nav.classList.toggle('slide');
+      });
+    </script>
+  </body>
+</html>
